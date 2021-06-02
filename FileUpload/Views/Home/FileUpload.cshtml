@@ -1,0 +1,24 @@
+﻿<div class="jumbotron">
+    <h1>Upload file from here</h1>
+</div>
+
+<div>
+    <div class="col-md-8" style="padding:0 0 5px">
+        <div class="col-md-2">
+            <label>Select File : </label>
+        </div>
+        <div class="col-md-4">
+            <input type="file" id="fileUpload" class="filestyle fUpload" />
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div>
+            <button onclick="UploadFile()" style="padding: 10px 24px;">Submit</button>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/FileUpload.js"></script>
+}
